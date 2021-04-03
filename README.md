@@ -12,6 +12,18 @@ Available methods:
 | `PUT` | Updates data for a record or changes. |
 | `DELETE` | Removes a record from the system. |
 
+
+## API Rutes
+
+|   Action                                         | Método   | URL                                               
+| -----------------------------------------------|----------|---------------------------------------------------
+|   Lista as traduções da palava até o momento   |  `GET`   | tradutor-it.herokuapp.com/translate/{{palavra}}  
+|   Traduz linguagem IT                          |  `POST`  | tradutor-it.herokuapp.com/translate/    
+
+
+
+
+
 ## Body Example
 
 + Response 200 (application/json)
