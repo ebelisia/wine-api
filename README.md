@@ -14,12 +14,12 @@ Available methods:
 
 ## API Rutes
 
-|   Action                                         | Method   | Enpoint Local                                               
-| -----------------------------------------------|----------|---------------------------------------------------
-|   Returns information of one or more records   |  `GET`   | http://localhost:8080/wines  
-|   Create a new record                          |  `POST`  | http://localhost:8080/wines    
-|   Updates data for a record or changes         |  `PUT`   | http://localhost:8080/wines/{{wine_id}}  
-|   Removes a record from the system.            |  `DELETE`  | http://localhost:8080/wines/{{wine_id}}   
+|   Action                                         | Method   | Local Enpoint                                    | Remote Enpoint  |          
+| -----------------------------------------------|----------|--------------------------------------------------- |                 |
+|   Returns information of one or more records   |  `GET`   | http://localhost:8080/wines                        |                 |
+|   Create a new record                          |  `POST`  | http://localhost:8080/wines                        |                 |
+|   Updates data for a record or changes         |  `PUT`   | http://localhost:8080/wines/{{wine_id}}            |                 |
+|   Removes a record from the system.            |  `DELETE`  | http://localhost:8080/wines/{{wine_id}}          |                 |
 
 ## Body Example
 
