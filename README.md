@@ -1,7 +1,7 @@
 # wine-api
 Wine API
 
-This is a wine API using spring and jpa.
+This is a wine API using Spring and JPA.
 
 ## Methods
 Available methods:
