@@ -17,15 +17,13 @@ Available methods:
 + Response 200 (application/json)
 
     + Body
-
+   
             {
                 "name": "Santa Ana Classic Merlot",
                 "alcoholPercent": 13.0,
                 "grape": "Merlot",
                 "year": "2020"
             }
-
-
 
 ## Installation
 
