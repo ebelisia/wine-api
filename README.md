@@ -7,7 +7,7 @@ This is a wine API using Spring and JPA.
 Available methods:
 | Method | Description |
 |---|---|
-| `GET` | Returns information from one or more records. |
+| `GET` | Returns information of one or more records. |
 | `POST` |Used to create a new record. |
 | `PUT` | Updates data for a record or changes. |
 | `DELETE` | Removes a record from the system. |
