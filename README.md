@@ -12,17 +12,14 @@ Available methods:
 | `PUT` | Updates data for a record or changes. |
 | `DELETE` | Removes a record from the system. |
 
-
 ## API Rutes
 
-|   Action                                         | Método   | URL                                               
+|   Action                                         | Method   | Enpoint Local                                               
 | -----------------------------------------------|----------|---------------------------------------------------
-|   Lista as traduções da palava até o momento   |  `GET`   | tradutor-it.herokuapp.com/translate/{{palavra}}  
-|   Traduz linguagem IT                          |  `POST`  | tradutor-it.herokuapp.com/translate/    
-
-
-
-
+|   Returns information of one or more records   |  `GET`   | http://localhost:8080/wines  
+|   Create a new record                          |  `POST`  | http://localhost:8080/wines    
+|   Updates data for a record or changes         |  `PUT`   | http://localhost:8080/wines/{{wine_id}}  
+|   Removes a record from the system.            |  `DELETE`  | http://localhost:8080/wines/{{wine_id}}   
 
 ## Body Example
 
